@@ -1,0 +1,539 @@
+[
+  {
+    "id": "Q01",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "What are the three specific strategies recommended for cloud architects to avoid non-standard API traps and vendor lock-in?",
+    "target_pages": [
+      4,
+      5
+    ],
+    "answer_keywords": [
+      "containerization",
+      "abstracted open-source databases",
+      "repository pattern"
+    ]
+  },
+  {
+    "id": "Q02",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "What are the key security, privacy, and performance bottlenecks mentioned under design challenges in cloud architecture?",
+    "target_pages": [
+      3,
+      4
+    ],
+    "answer_keywords": [
+      "guest-hopping",
+      "i/o interference"
+    ]
+  },
+  {
+    "id": "Q03",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "Why does the document recommend Kubernetes as an abstraction layer to solve the problems of non-standard APIs and legacy dependencies?",
+    "target_pages": [
+      9
+    ],
+    "answer_keywords": [
+      "abstraction layer",
+      "yaml"
+    ]
+  },
+  {
+    "id": "Q04",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What is Dynamic Resource Management (DRM) and what are its key provisioning methods?",
+    "target_pages": [
+      6
+    ],
+    "answer_keywords": [
+      "dynamic resource management",
+      "demand-driven",
+      "event-driven",
+      "popularity-driven"
+    ]
+  },
+  {
+    "id": "Q05",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What is the difference between cloud federations and multi-cloud ecosystems?",
+    "target_pages": [
+      5
+    ],
+    "answer_keywords": [
+      "cloud federations",
+      "multi-cloud ecosystems"
+    ]
+  },
+  {
+    "id": "Q06",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What are the four foundational components of the Inter-Cloud model?",
+    "target_pages": [
+      5
+    ],
+    "answer_keywords": [
+      "cloud broker",
+      "cloud exchange",
+      "cloud coordinator",
+      "intergrid gateways"
+    ]
+  },
+  {
+    "id": "Q07",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What does the IaaS infrastructure layer provide and what control does it give users?",
+    "target_pages": [
+      2
+    ],
+    "answer_keywords": [
+      "virtualized compute",
+      "virtual machine operating systems"
+    ]
+  },
+  {
+    "id": "Q08",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What is the role of the PaaS platform layer as system middleware?",
+    "target_pages": [
+      2
+    ],
+    "answer_keywords": [
+      "system middleware",
+      "runtime libraries"
+    ]
+  },
+  {
+    "id": "Q09",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "Which storage options are mentioned for storage clouds, such as block stores, object stores and cloud databases?",
+    "target_pages": [
+      1
+    ],
+    "answer_keywords": [
+      "amazon ebs",
+      "amazon s3",
+      "bigtable"
+    ]
+  },
+  {
+    "id": "Q10",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What are the major design objectives of cloud platforms?",
+    "target_pages": [
+      1
+    ],
+    "answer_keywords": [
+      "pay-as-you-go",
+      "power efficiency"
+    ]
+  },
+  {
+    "id": "Q11",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "What is guest-hopping and how does encryption help protect user data?",
+    "target_pages": [
+      3
+    ],
+    "answer_keywords": [
+      "guest-hopping",
+      "at rest and in transit"
+    ]
+  },
+  {
+    "id": "Q12",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "lexical",
+    "question": "How do circuit breakers and retries help stop cascading failures?",
+    "target_pages": [
+      4
+    ],
+    "answer_keywords": [
+      "circuit breakers",
+      "cascading failures"
+    ]
+  },
+  {
+    "id": "Q13",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "If I build my whole application around one vendor's proprietary database service, what happens when I want to move to another provider?",
+    "target_pages": [
+      4
+    ],
+    "answer_keywords": [
+      "dynamodb",
+      "rewrite"
+    ]
+  },
+  {
+    "id": "Q14",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Which design pattern keeps vendor-specific cloud code isolated so the main business logic stays generic?",
+    "target_pages": [
+      5
+    ],
+    "answer_keywords": [
+      "repository pattern"
+    ]
+  },
+  {
+    "id": "Q15",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How can a cloud provider borrow capacity from other providers when it runs out of physical space?",
+    "target_pages": [
+      5
+    ],
+    "answer_keywords": [
+      "inter-cloud",
+      "cloud of clouds"
+    ]
+  },
+  {
+    "id": "Q16",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Which component acts for the customer and searches the market for the cheapest service that meets its quality needs?",
+    "target_pages": [
+      5
+    ],
+    "answer_keywords": [
+      "cloud broker",
+      "cost-effective"
+    ]
+  },
+  {
+    "id": "Q17",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How can servers be scaled up in advance of a holiday season?",
+    "target_pages": [
+      6
+    ],
+    "answer_keywords": [
+      "event-driven provisioning",
+      "holidays"
+    ]
+  },
+  {
+    "id": "Q18",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "What automatically allocates and reallocates resources to cut power and cooling costs?",
+    "target_pages": [
+      6
+    ],
+    "answer_keywords": [
+      "dynamic resource management",
+      "power/cooling"
+    ]
+  },
+  {
+    "id": "Q19",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How are bids from buyers matched against asks from sellers to discover a fair price?",
+    "target_pages": [
+      7
+    ],
+    "answer_keywords": [
+      "double auctions"
+    ]
+  },
+  {
+    "id": "Q20",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Why could moving a health database from a European provider to an American one break the law?",
+    "target_pages": [
+      7
+    ],
+    "answer_keywords": [
+      "gdpr",
+      "data sovereignty"
+    ]
+  },
+  {
+    "id": "Q21",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "What happens to leased cloud resources once the lease expires?",
+    "target_pages": [
+      7
+    ],
+    "answer_keywords": [
+      "wiped clean"
+    ]
+  },
+  {
+    "id": "Q22",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Why is an application whose interface, logic and database are tightly bound hard to move to the cloud?",
+    "target_pages": [
+      7,
+      8
+    ],
+    "answer_keywords": [
+      "monolithic",
+      "tightly coupled"
+    ]
+  },
+  {
+    "id": "Q23",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "In the orchestra analogy, what plays the role of the conductor?",
+    "target_pages": [
+      8
+    ],
+    "answer_keywords": [
+      "conductor",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "Q24",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "What happens to a crashed container when it is managed by Kubernetes?",
+    "target_pages": [
+      8
+    ],
+    "answer_keywords": [
+      "self-healing"
+    ]
+  },
+  {
+    "id": "Q25",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Why might setting up Kubernetes be overkill for a small, simple application?",
+    "target_pages": [
+      9
+    ],
+    "answer_keywords": [
+      "over-engineering",
+      "steep learning curve"
+    ]
+  },
+  {
+    "id": "Q26",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "When part of a network gets cut off, why do the servers on the other side appear to be dead?",
+    "target_pages": [
+      9
+    ],
+    "answer_keywords": [
+      "islands",
+      "appear to be dead"
+    ]
+  },
+  {
+    "id": "Q27",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Which kinds of software prefer refusing requests to serving inconsistent data?",
+    "target_pages": [
+      10
+    ],
+    "answer_keywords": [
+      "banking systems"
+    ]
+  },
+  {
+    "id": "Q28",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How does a majority-vote mechanism keep a split database cluster from diverging?",
+    "target_pages": [
+      10
+    ],
+    "answer_keywords": [
+      "quorum",
+      "majority island"
+    ]
+  },
+  {
+    "id": "Q29",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How can a payment request be retried several times without charging the customer more than once?",
+    "target_pages": [
+      10
+    ],
+    "answer_keywords": [
+      "idempotent"
+    ]
+  },
+  {
+    "id": "Q30",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How can an on-premises company handle excess workload by borrowing public cloud capacity?",
+    "target_pages": [
+      11
+    ],
+    "answer_keywords": [
+      "cloud bursting",
+      "amazon ec2"
+    ]
+  },
+  {
+    "id": "Q31",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How can a faulty security policy update make database nodes lose contact with each other?",
+    "target_pages": [
+      10
+    ],
+    "answer_keywords": [
+      "heartbeat"
+    ]
+  },
+  {
+    "id": "Q32",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "Which part of an exchange checks that a provider can honour the SLA before a trade and sets penalties?",
+    "target_pages": [
+      7
+    ],
+    "answer_keywords": [
+      "admission control"
+    ]
+  },
+  {
+    "id": "Q33",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "paraphrase",
+    "question": "How does InterGrid cope when a whole grid island is isolated by a network failure?",
+    "target_pages": [
+      11
+    ],
+    "answer_keywords": [
+      "peer gateways",
+      "re-route"
+    ]
+  },
+  {
+    "id": "Q34",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "Compare the role of the Cloud Broker in the Inter-Cloud model with its role in the Global Exchange.",
+    "target_pages": [
+      5,
+      7
+    ],
+    "answer_keywords": [
+      "quality of service",
+      "bulk packages"
+    ]
+  },
+  {
+    "id": "Q35",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "How do the CAP theorem trade-offs between consistency and availability apply to banking systems versus shopping carts?",
+    "target_pages": [
+      9,
+      10
+    ],
+    "answer_keywords": [
+      "eventual consistency",
+      "shopping carts"
+    ]
+  },
+  {
+    "id": "Q36",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "What problems do legacy on-premises applications pose and how does Kubernetes help modernize them?",
+    "target_pages": [
+      7,
+      8,
+      9
+    ],
+    "answer_keywords": [
+      "monolithic",
+      "modernizing the legacy monolith"
+    ]
+  },
+  {
+    "id": "Q37",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "How do fault-tolerance challenges in cloud design relate to partition-handling patterns like quorum?",
+    "target_pages": [
+      4,
+      10
+    ],
+    "answer_keywords": [
+      "circuit breakers",
+      "quorum"
+    ]
+  },
+  {
+    "id": "Q38",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "multi_page",
+    "question": "How do vendor lock-in problems connect to Kubernetes and multi-cloud portability?",
+    "target_pages": [
+      4,
+      9
+    ],
+    "answer_keywords": [
+      "multi-cloud",
+      "kubernetes"
+    ]
+  },
+  {
+    "id": "U01",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "unanswerable",
+    "question": "What is the pricing of AWS Lambda per million requests?",
+    "target_pages": [],
+    "answer_keywords": [],
+    "answerable": false
+  },
+  {
+    "id": "U02",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "unanswerable",
+    "question": "Explain how blockchain consensus protects data in cloud storage.",
+    "target_pages": [],
+    "answer_keywords": [],
+    "answerable": false
+  },
+  {
+    "id": "U03",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "unanswerable",
+    "question": "Who founded Amazon Web Services and in which year?",
+    "target_pages": [],
+    "answer_keywords": [],
+    "answerable": false
+  },
+  {
+    "id": "U04",
+    "file": "CC_UNIT_3 (1).pdf",
+    "type": "unanswerable",
+    "question": "What topics are covered in UNIT-IV of this course?",
+    "target_pages": [],
+    "answer_keywords": [],
+    "answerable": false
+  }
+]

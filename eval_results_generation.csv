@@ -1,0 +1,43 @@
+id,type,answerable,abstained,kw_coverage,has_citation,citation_correct,cited_pages
+Q01,multi_page,True,False,0.6666666666666666,True,True,[4]
+Q02,multi_page,True,False,0.5,True,True,[3]
+Q03,lexical,True,False,1.0,True,True,[9]
+Q04,lexical,True,False,1.0,True,True,[6]
+Q05,lexical,True,False,1.0,True,True,[5]
+Q06,lexical,True,False,1.0,True,True,[5]
+Q07,lexical,True,False,1.0,True,True,[2]
+Q08,lexical,True,False,1.0,True,True,[2]
+Q09,lexical,True,False,1.0,True,True,[1]
+Q10,lexical,True,False,1.0,True,True,[1]
+Q11,lexical,True,False,0.5,True,True,[3]
+Q12,lexical,True,False,1.0,True,True,[4]
+Q13,paraphrase,True,False,1.0,True,True,[4]
+Q14,paraphrase,True,False,1.0,True,True,[5]
+Q15,paraphrase,True,False,1.0,True,True,[5]
+Q16,paraphrase,True,False,1.0,True,True,[5]
+Q17,paraphrase,True,False,1.0,True,True,[6]
+Q18,paraphrase,True,False,0.5,True,True,[6]
+Q19,paraphrase,True,False,1.0,True,True,[7]
+Q20,paraphrase,True,False,1.0,True,True,[7]
+Q21,paraphrase,True,False,1.0,True,True,[7]
+Q22,paraphrase,True,False,1.0,True,True,[7]
+Q23,paraphrase,True,False,1.0,True,True,[8]
+Q24,paraphrase,True,False,0.0,True,True,[8]
+Q25,paraphrase,True,False,0.5,True,True,[9]
+Q26,paraphrase,True,False,1.0,True,True,[9]
+Q27,paraphrase,True,False,1.0,True,True,[10]
+Q28,paraphrase,True,False,1.0,True,True,[10]
+Q29,paraphrase,True,False,1.0,True,True,[10]
+Q30,paraphrase,True,False,1.0,True,True,[11]
+Q31,paraphrase,True,False,1.0,True,True,[10]
+Q32,paraphrase,True,False,1.0,True,True,[7]
+Q33,paraphrase,True,False,1.0,True,True,[11]
+Q34,multi_page,True,False,0.5,True,True,"[5, 6]"
+Q35,multi_page,True,True,0.5,False,False,[]
+Q36,multi_page,True,False,0.5,True,True,"[8, 9]"
+Q37,multi_page,True,False,0.5,True,True,[10]
+Q38,multi_page,True,False,1.0,True,True,"[4, 9]"
+U01,unanswerable,False,True,,,,
+U02,unanswerable,False,True,,,,
+U03,unanswerable,False,True,,,,
+U04,unanswerable,False,True,,,,
